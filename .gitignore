@@ -4,7 +4,7 @@
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
-
+**/.env
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
@@ -129,3 +129,4 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,jupyternotebooks
+/llm_for_stock_risk_analysis/.env
